@@ -1,19 +1,19 @@
-image: cbpowell/unifi-rpi:5.12.13
+image: cbpowell/unifi-rpi:5.12.16
 tags:
 manifests:
   -
-    image: cbpowell/unifi-rpi:5.12.13-amd64
+    image: cbpowell/unifi-rpi:5.12.16-amd64
     platform:
       architecture: amd64
       os: linux
   -
-    image: cbpowell/unifi-rpi:5.12.13-arm32v7
+    image: cbpowell/unifi-rpi:5.12.16-arm32v7
     platform:
       architecture: arm
       os: linux
       variant: v7
   -
-    image: cbpowell/unifi-rpi:5.12.13-arm64v8
+    image: cbpowell/unifi-rpi:5.12.16-arm64v8
     platform:
       architecture: arm64
       os: linux
